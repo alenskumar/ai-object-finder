@@ -1,0 +1,88 @@
+body
+{
+    background: linear-gradient(to right,  #093028,#237A57);
+     background-size: cover;
+     overflow: hidden;
+    
+}
+
+#heading
+{
+   
+text-align: center;
+
+font-family: 'Silkscreen', cursive;
+background-color: black;
+margin-top: -8px;
+border: 3px solid #237A57;
+padding: 5px;
+padding-bottom: 25px;
+}
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+  #smll
+  {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin-top: -40px;
+    font-family: 'Orbitron', sans-serif;
+
+  }
+  #inpt
+  {
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+  }
+  #objct
+  {
+    color: white;
+font-size: 20px;
+font-family: 'Orbitron', sans-serif;
+margin-top:20px;
+margin-left: 40px;
+
+  }
+  
+  .button1
+  {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor:pointer;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 700px;
+    margin-top: -150px;
+    position: fixed;
+  }
+
+  
+  
+  #oft
+  {
+    margin-left: 1000px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+  }
